@@ -5,5 +5,4 @@ import { Component } from '@angular/core';
   templateUrl: './timeline-view.component.html',
 })
 export class TimelineViewComponent {
-  // Implement your timeline view logic here
 }
