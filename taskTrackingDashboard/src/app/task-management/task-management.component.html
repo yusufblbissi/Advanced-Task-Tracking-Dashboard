@@ -1,0 +1,24 @@
+<h1>Task Management</h1>
+<div class="body-test">
+<div>
+  <label for="taskName">Task Name:</label>
+  <input type="text" id="taskName" [(ngModel)]="newTask.name" />
+</div>
+<div>
+  <label for="taskDescription">Task Description:</label>
+  <textarea id="taskDescription" [(ngModel)]="newTask.description"></textarea>
+</div>
+<div>
+  <label for="taskPriority">Task Priority:</label>
+  <select id="taskPriority" [(ngModel)]="newTask.priority">
+    <option value="Low">Low</option>
+    <option value="Medium">Medium</option>
+    <option value="High">High</option>
+  </select>
+</div>
+<div>
+  <label for="dueDate">Due Date:</label>
+  <input type="date" id="dueDate" [(ngModel)]="newTask.dueDate" />
+</div>
+<button (click)="addTask()">Add Task</button>
+</div>

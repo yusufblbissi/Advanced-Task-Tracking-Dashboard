@@ -1,0 +1,18 @@
+<!-- <h1>Dashboard</h1>
+<a [routerLink]="['/project', projectId]">View Project Details</a> -->
+
+<div class="body-test">
+  <h1>Dashboard</h1>
+  <div
+    *ngFor="let project of projects"
+    class="project-overview"
+    (click)="viewProjectDetails(project.id)"
+  >
+    <h2>{{ project.name }}</h2>
+    <p>Owner: {{ project.owner }}</p>
+    <p>Start Date: {{ project.startDate }}</p>
+    <p>Deadline: {{ project.deadline }}</p>
+    <p>Completion Percentage: {{ project.completionPercentage }}%</p>
+    <p>Overdue Tasks: {{ project.overdueTasks }}</p>
+  </div>
+</div>

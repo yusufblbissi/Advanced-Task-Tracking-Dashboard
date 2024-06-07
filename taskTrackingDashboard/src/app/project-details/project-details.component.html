@@ -1,0 +1,17 @@
+<h1>Project Details</h1>
+<div class="body-test">
+<div>
+  <label for="projectOwner">Owner:</label>
+  <input type="text" id="projectOwner" [(ngModel)]="project.owner" />
+</div>
+<div>
+  <label for="startDate">Start Date:</label>
+  <input type="date" id="startDate" [(ngModel)]="project.startDate" />
+</div>
+<div>
+  <label for="deadline">Deadline:</label>
+  <input type="date" id="deadline" [(ngModel)]="project.deadline" />
+</div>
+<button (click)="updateProject()">Update Project</button>
+</div>
+

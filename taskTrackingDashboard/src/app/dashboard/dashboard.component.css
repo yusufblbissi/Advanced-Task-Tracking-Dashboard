@@ -1,0 +1,29 @@
+.project-overview {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+  }
+  
+  .project-overview h2 {
+    margin-top: 0;
+  }
+  .body-test{
+    margin: 3rem;
+}
+  .project-overview ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .project-overview ul li {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 10px;
+  }
+  
+  .project-overview ul li:last-child {
+    border-bottom: none;
+  }
+  
