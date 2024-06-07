@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { RouterModule } from '@angular/router';
 import { ProjectService } from '../shared/services/dashboard.service';
 import { Router } from '@angular/router';
-import { CommonModule } from '@angular/common'; // استيراد CommonModule
+import { CommonModule } from '@angular/common';
 
 interface Task {
   id: number;
